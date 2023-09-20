@@ -11,6 +11,7 @@
 
 li {
     margin: auto 0;
+    list-style: none;
 }
 
 a{
@@ -28,10 +29,6 @@ p {
 }
 
 
-.info-card {
-    width: 350px;
-    height: 400px;
-}
 
 .info__p {
     display: flex;

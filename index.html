@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="./css/global.css">
 </head>
 <body>
+
 <header>
     <div class="navbar navbar-light bg-light border-bottom">
         <div class="container-lg flex-row justify-content-between">
@@ -26,11 +27,11 @@
         </div>
     </div>
 
-    <div class="border-bottom border-black shadow py-3">
+    <nav class="border-bottom border-black shadow py-3">
         <div class="container-lg d-flex justify-content-between justify-content-start">
             <ul class="nav d-flex align-items-center ">
                 <li class="nav-item  me-4">
-                    <a class="nav-link link" aria-current="page" href="#">Urząd</a>
+                    <a class="nav-link link ps-0" aria-current="page" href="#">Urząd</a>
                 </li>
                 <li class="nav-item me-4">
                     <a class="nav-link link" href="#">Uchwały</a>
@@ -57,86 +58,88 @@
                 <a href="#"> <img src="./assets/images/social-media/youtube.png" alt="" width="32"></a>
             </div>
         </div>
-    </div>
+    </nav>
 </header>
 
 <section>
-        <div class="container-lg justify-content-lg-start align-items-center py-3" style="--bs-breadcrumb-divider: '>';"
-             aria-label="breadcrumb">
-            <ol class="breadcrumb mb-0">
-                <li class="breadcrumb-item text-decoration-underline text-black-50"><a href="#">Strona główna</a></li>
-                <li class="breadcrumb-item active text-black-50 active"><a href="#">BIP</a></li>
-            </ol>
-        </div>
+    <div class="container-lg py-3" style="--bs-breadcrumb-divider: '>';"
+         aria-label="breadcrumb">
+        <ol class="breadcrumb mb-0">
+            <li class="breadcrumb-item text-decoration-underline text-black-50"><a href="#">Strona główna</a></li>
+            <li class="breadcrumb-item active text-black-50 active"><a href="#">BIP</a></li>
+        </ol>
+    </div>
 </section>
 
-<section class="container-lg">
-    <div class="me-4">
+<section class="py-3">
+    <div class="container-lg">
+        <div class="row col-12">
+            <div class="col-lg-9 col-md-8 ">
+                <div class="flex-row justify-content-between">
+                    <div class="bip-icons d-flex justify-content-start" style="margin-top: 20px">
+                        <img src="./assets/images/logos/pol-bip.png" class="mb-auto " alt="" width="40" height="">
+                        <img src="./assets/images/logos/bip-ico.png" class="mb-auto ms-4" alt="" width="50">
+                    </div>
+                    <p>Witamy na stronie Biuletynu Informacji Publicznej Urzedu Gminy.</p>
+                    <p>Zgodnie z <a href="#">ustawa z dnia 6 wrzesnia 2001 r. o dostępie do informacji publicznej, do
+                        udostępniania informacji publicznej
+                        zobowiązane sa m.in. organy władzv publicznel. w tvm Prezes Urzędu Gminy</a></p>
+                    <p>w tym celu został utworzonv urzędowy publikator teleinformatyczny - Biuletyn Intormacji
+                        Publicznej
+                        Urzedu Gminy. na stronach
+                        którego się Państwo znajdujecie</p>
+                    <p>Jeśli nasz serwis nie zawiera wszystkich interesujących Panstwa informacji, prosze złozyc <a
+                            href="#">wniosek o udostępnienie informacji
+                        publicznej</a> i wysłac go na adres <a href="#">bip@urzad.gmina.pl</a>. Pełna procedura
+                        udostępniania informacji publicznej znajduie się tutaj.</p>
+                    <p>Strona gtówna Biuletynu Informacji Publicznej jest redagowana przez Ministra Spraw Wewnętrznych i
+                        Administracji i znajduje się
+                        pod adresem <a href="#">www.urzad.gmina.pl.</a></p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4 pt-5 ">
+                <div class="info-card shadow rounded-5  position-relative overflow-hidden py-4 px-5">
+                    <img src="./assets/images/logos/info-bg.png" class="position-absolute end-0 bottom-0" alt="">
+                    <div class="position-relative">
+                        <h4>Jak przekazac wniosek</h4>
+                        <p class="fs-6">o udostepnianie informacil
+                            publicznej?</p>
 
-        <div class="bip-icons d-flex justify-content-start" style="margin-top: 20px">
-            <img src="./assets/images/logos/pol-bip.png" class="mb-auto " alt="" width="40" height="">
-            <img src="./assets/images/logos/bip-ico.png" class="mb-auto ms-4" alt="" width="50">
+
+                        <ul class="ps-0 d-flex flex-column gap-3">
+                            <li class="gap-3 d-flex">
+                                <span><img src="./assets/images/social-media/location.png" width="24"
+                                           alt=""></span>
+                                <span>ul. Szkolna 2 m 18 <br>41-250 Czeladź</span>
+                            </li>
+                            <li class="gap-3 d-flex">
+                                <span><img src="./assets/images/social-media/phone-call.png" width="24"
+                                           alt=""></span>
+                                <span>(faks.) 22 826 00 00</span>
+                            </li>
+                            <li class="gap-3 d-flex">
+                                <span><img src="./assets/images/social-media/envelope.png" width="24"
+                                           alt=""></span>
+                                <span>bip@urzad.gmina.pl</span>
+                            </li>
+                            <li class="gap-3 d-flex">
+                                <span><img src="./assets/images/social-media/web.png" width="24"
+                                           alt=""></span>
+                                <span><a href="#">ePUAP</a></span>
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
         </div>
         <div class="content flex row justify-content-between w-100 overflow-hidden">
-            <div class="flex-row justify-content-between" style="width: 70%">
-                <p>Witamy na stronie Biuletynu Informacji Publicznej Urzedu Gminy.</p>
-                <p>Zgodnie z <a href="#">ustawa z dnia 6 wrzesnia 2001 r. o dostępie do informacji publicznej, do
-                    udostępniania informacji publicznej
-                    zobowiązane sa m.in. organy władzv publicznel. w tvm Prezes Urzędu Gminy</a></p>
-                <p>w tym celu został utworzonv urzędowy publikator teleinformatyczny - Biuletyn Intormacji Publicznej
-                    Urzedu Gminy. na stronach
-                    którego się Państwo znajdujecie</p>
-                <p>Jeśli nasz serwis nie zawiera wszystkich interesujących Panstwa informacji, prosze złozyc <a
-                        href="#">wniosek o udostępnienie informacji
-                    publicznej</a> i wysłac go na adres <a href="#">bip@urzad.gmina.pl</a>. Pełna procedura
-                    udostępniania informacji publicznej znajduie się tutaj.</p>
-                <p>Strona gtówna Biuletynu Informacji Publicznej jest redagowana przez Ministra Spraw Wewnętrznych i
-                    Administracji i znajduje się
-                    pod adresem <a href="#">www.urzad.gmina.pl.</a></p>
-            </div>
-            <div class="info-card shadow rounded-5 w-25 me-2 position-relative flex-column justify-content-center align-items-center"
-                 style="
-                 background-image: url(/assets/images/logos/info-bg.png);
-                 background-repeat: no-repeat;
-                 background-position-x: right;
-                 background-position-y: bottom"
 
-            >
-
-                <div class="w-100 p-4">
-                    <h4 class="z-1">Jak przekazac wniosek</h4>
-                    <p class="z-1 fs-6">o udostepnianie informacil
-                        publicznej?</p>
-
-                    <table class="table">
-                        <tbody>
-                        <tr>
-                            <th scope="row"><img src="./assets/images/social-media/location.png" width="24" alt=""></th>
-                            <td>ul. Szkolna 2 m 18 <br>41-250 Czeladź</td>
-                        </tr>
-                        <tr>
-                            <th scope="row"><img src="./assets/images/social-media/phone-call.png" width="24" alt="">
-                            </th>
-                            <td>(faks.) 22 826 00 00</td>
-                        </tr>
-                        <tr>
-                            <th scope="row"><img src="./assets/images/social-media/envelope.png" width="24" alt=""></th>
-                            <td colspan="2">bip@urzad.gmina.pl</td>
-                        </tr>
-                        <tr>
-                            <th scope="row"><img src="./assets/images/social-media/web.png" width="24" alt=""></th>
-                            <td colspan="2"><a href="#">ePUAP</a></td>
-                        </tr>
-
-                        </tbody>
-                    </table>
-                </div>
-
-            </div>
         </div>
 
     </div>
 </section>
+
 <section class="category container-lg mt-5">
     <div class="category__container me-4">
         <h2 class="mb-3">Kategorie</h2>
