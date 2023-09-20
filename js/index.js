@@ -1,20 +1,3 @@
-const cards = document.querySelectorAll('.category__cards__card');
-
-function changeActiveClass (event) {
-    cards.forEach(card => {
-        card.classList.remove('active-el');
-        card.style.backgroundColor = ''; // Сбрасываем фон
-    });
-
-    event.currentTarget.classList.add('active-el');
-    event.currentTarget.style.backgroundColor = '#D7B436';
-}
-
-cards.forEach(card => {
-    card.addEventListener('click', changeActiveClass );
-});
-
-
 const imgElement = document.getElementById('search-img');
 
 const inputElement = document.querySelector('.form-control');
@@ -44,5 +27,25 @@ const changeLanguage = () => {
 }
 
 languageSpan.addEventListener("click", changeLanguage)
+
+
+const links = document.querySelectorAll('.category-link');
+function handleClick(event) {
+    event.preventDefault();
+
+    links.forEach(link => {
+        link.classList.remove('is-active');
+    });
+
+    event.currentTarget.classList.add('is-active');
+}
+
+links.forEach(link => {
+    link.addEventListener('click', handleClick);
+});
+
+
+
+
 
 
