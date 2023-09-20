@@ -1,20 +1,6 @@
 html,
-body{
+body {
     height: 100%;
-}
-
-footer{
-    font-size: 10px;
-}
-.link {
-    color: black !important;
-}
-.light-link{
-    color: white !important;
-}
-
-.link:hover {
-    color: #D7B436 !important;
 }
 
 li {
@@ -22,33 +8,48 @@ li {
     list-style: none;
 }
 
-a{
+a {
     text-decoration: none !important;
     color: #18407E;
 }
 
-.wrapper{
+.wrapper {
     min-height: 100%;
     display: flex;
     flex-direction: column;
     overflow: hidden;
 }
-.page{
+
+.page {
     flex: 1 1 auto
 }
 
+.link {
+    color: black !important;
+}
+
+.light-link {
+    color: white !important;
+}
+
+.link:hover {
+    color: #D7B436 !important;
+}
 
 
-.is-active{
+.is-active {
     background: #D7B436 !important;
 }
-.category-link{
-    width: calc(100%/3 - 1rem);
+
+.category-link {
+    width: calc(100% / 3 - 1rem);
     transition: background-color .50s ease-in-out;
 }
 
-
-
-.breadcrumb-item + .breadcrumb-item::before{
+.breadcrumb-item + .breadcrumb-item::before {
     float: left
+}
+
+footer {
+    font-size: 10px;
 }
